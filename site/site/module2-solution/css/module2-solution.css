@@ -16,6 +16,14 @@ p {
   font-family: Helvetica;
   color: white;
 }
+
+.title-row >h1 {
+position: relative;
+display: block;
+text-align: center;
+
+}
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
