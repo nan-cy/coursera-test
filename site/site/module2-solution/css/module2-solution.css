@@ -16,53 +16,103 @@ h2 {
 
 
 p {
-  border: 1px solid black;
-  background-color: #e3e3e3;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0;
   font-size: 100%;
  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  padding: 10px;
+
+ padding: 10px;
 }
+
+
 /* Simple Responsive Framework. */
 .row {
-
   width: 100%;
 }
+
 
 .title-row >h1 {
 
 text-align: center;
 }
 
-.inner { 
-float: right;
-position: relative;
-
-right: 5%;
-
+.inner1 { 
+margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70%;
 width: 30%;
-height: auto;
-border: solid 3px #000000;
-
+border: solid 1px #000000;
 background-color: #00ff00;
 text-align: center;
-
-font-size: 120%;
-
+padding: 5px;
+font-size: 125%;
 
 }
+
+.inner2 { 
+margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70%;
+width: 30%;
+border: solid 1px #000000;
+background-color: #00ff00;
+text-align: center;
+padding: 5px;
+font-size: 125%;
+
+}
+
+
+.inner3 { 
+margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 70%;
+width: 30%;
+border: solid 1px #000000;
+background-color: #00ff00;
+text-align: center;
+padding: 5px;
+font-size: 125%;
+
+}
+
+.container {
+  border: none;
+ margin: 10px auto;
+  padding: 10px;
+}
+
+section {
+  position: relative
+  border: solid 1px #000000;
+  background color: #3e3e3e;
+  width: 100%:
+    height: 200px;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+ 
+
+
+
+
 
 
 /********** BROWSER version only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    position: relative;
-    border: 1px solid green;
+    
   }
   .col-lg-1 {
     width: 8.33%;
@@ -101,18 +151,13 @@ font-size: 120%;
     width: 100%;
   }
 
-.inner {
-margin-top: 17px;
-
-}
-
 
 }
 /********** Tablet View only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+   
   
   }
   .col-md-1 {
@@ -152,8 +197,7 @@ margin-top: 17px;
     width: 100%;
   }
 
-  .inner {
-margin-top: 17px;
+ 
 }
 
 @media only screen and (max-width: 767px) {
