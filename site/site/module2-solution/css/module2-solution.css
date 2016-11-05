@@ -34,7 +34,7 @@ padding: 10px;
 text-align: center;
 }
 
-#inner1 { 
+.inner1 { 
 margin-top: 0;
   margin-bottom: 0;
   margin-left: 70%;
@@ -47,7 +47,7 @@ font-size: 125%;
 
 }
 
-#inner2 { 
+.inner2 { 
 margin-top: 0;
   margin-bottom: 0;
   margin-left: 70%;
@@ -61,7 +61,7 @@ font-size: 125%;
 }
 
 
-#inner3 { 
+.inner3 { 
 margin-top: 0;
   margin-bottom: 0;
   margin-left: 70%;
