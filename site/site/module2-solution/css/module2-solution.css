@@ -78,10 +78,10 @@ font-size: 125%;
   border: none;
  margin: 10px auto;
   padding: 10px;
-  background-color: #000000;
+  
 }
 
-#section {
+section {
   position: relative;
   border: solid 1px #000000;
   background-color: #FFCCFF;
