@@ -34,13 +34,13 @@ padding: 10px;
 text-align: center;
 }
 
-.inner1 { 
+section >.inner1 { 
 margin-top: 0;
   margin-bottom: 0;
   margin-left: 70%;
 width: 30%;
 border: solid 1px #000000;
-background-color: #00ff00;
+background-color: #00CC33;
 text-align: center;
 padding: 5px;
 font-size: 125%;
