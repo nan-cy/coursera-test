@@ -353,7 +353,7 @@ section {
   height: 40px;
 }
 
-.mavbar=bramd h1 { /*restaurant name */
+.navbar-brand h1 { /*restaurant name */
 padding-top: 10px;
 font-size: 5vw; /* 1% of viewport width  */
 }
